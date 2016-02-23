@@ -1,0 +1,22 @@
+head
+{
+    font-size: 140%;
+    background-color: #fbfbf8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+body
+{
+    font-size: 140%;
+    background-color: #fbfbf8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-radius: 50px;
+    border: 5px solid #e67e3c;
+    text-indent: 50px;
+}
+div
+{
+    text-indent: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
