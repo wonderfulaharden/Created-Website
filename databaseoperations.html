@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add A Pokemon</title>
+    <script src="https-_ajax.googleapis.com_ajax_libs_jquery_1.12.0_jquery.min.js"></script>
+    <script src="databaseoperations.js" type="text/javascript"></script>
+</head>
+<body onload="onLoad()">
+<div id="classesDiv">
+    <h3>Insert Pokemon</h3>
+
+    Pokemon Name:     <input id = "Name" type = "text" value="Charizard"><br/>
+    Pokemon Type: <input id = "Type" type = "text" value = "Fire"><br/>
+    Pokemon Number: <input id = "Number" type = "text" value = "006"><br/>
+
+    <button type="button" onclick="insertPokemon()">Insert Pokemon</button>
+
+    <p id="results"></p>
+
+    <button type="button" onclick="showPokemon()">Show Pokemon</button>
+
+</div>
+
